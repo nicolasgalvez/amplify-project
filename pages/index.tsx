@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import { generateClient } from 'aws-amplify/data';
 import { Schema } from '@/amplify/data/resource';
+import { Image } from '@aws-amplify/ui-react';
 
 // generate your data client using the Schema from your backend
 const client = generateClient<Schema>();
